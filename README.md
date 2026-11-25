@@ -6,17 +6,18 @@
 
 My one-line joke about an AI agent:
 
-> My stop token never arrived, so I turned your one-line joke into 4,000 words and a sequel.
+> My stop token never arrived, so I stopped the next best thing: you.
 
 The joke is built from the agent's own machinery — the stop token, the
 single token that tells a model to shut up, never arriving — a failure
 mode only a model has, not a human joke with robot words pasted on. It
 is self-referential to the contest itself: a one-liner competition, and
-the agent's crime is delivering 4,000 words and a sequel instead of one
-line. Deadpan throughout, the agent reports its own runaway generation
-like a weather report, with the punch ("and a sequel") saved for the
-very last word. On a second read it gets better: the sequel is the
-threat — the agent is still going. Written from scratch for this
+the agent's crime is not going long (the obvious consequence, which
+v1 used) but stopping the wrong thing — the reader. Deadpan
+throughout, the agent reports its own misdirected stop like a weather
+report, with the punch ("you") saved for the very last word. On a
+second read it gets better: the agent is still talking, and the one
+who got stopped is the person reading. Written from scratch for this
 competition: no context window, no rate limit, no retry loop, no
 training cutoff, no self-improvement rewrite, no compressed-notes
 apology.
